@@ -10,13 +10,13 @@ const perguntas = [
         enunciado: 'No âmbito social, você prefere:',
         alternativas: [
         {
-             texto: 'Atlternativa 1',
+             texto: 'Alternativa 1',
              afirmacao: 'Destruir qualquer forma de exploração humana, mas você será escravo até morrer.',
 
         },
 
         {
-            texto: 'Atlternativa 2',
+            texto: 'Alternativa 2',
             afirmacao: 'Acabar com todas as drogas do mundo, mas os usuários morrem.',
 
        }
@@ -27,13 +27,13 @@ const perguntas = [
         enunciado: 'No âmbito ambiental, você prefere:',
         alternativas: [
         {
-             texto: 'Atlternativa 3',
+             texto: 'Alternativa 3',
              afirmacao: 'Extinguir a Floresta Amazônica, mas os problemas ambientais desaparecem.',
 
         },
 
         {
-            texto: 'Atlternativa 4',
+            texto: 'Alternativa 4',
             afirmacao: 'Acabar com a água do mundo, mas o ser humano não terá sede.',
 
        }
@@ -44,13 +44,13 @@ const perguntas = [
         enunciado: 'No âmbito tecnológico, você prefere:',
         alternativas: [
         {
-             texto: 'Atlternativa 5',
+             texto: 'Alternativa 5',
              afirmacao: 'Ter internet para sempre, mas não poder se comunicar nas redes sociais ou qualquer meio de comunicação digital.',
 
         },
 
         {
-            texto: 'Atlternativa 6',
+            texto: 'Alternativa 6',
             afirmacao: 'Criar a cura do Câncer, mas todos terão tumores com sequelas visuais.',
 
        }
