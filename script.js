@@ -10,14 +10,14 @@ const perguntas = [
         enunciado: 'No âmbito social, você prefere:',
         alternativas: [
         {
-             texto: 'Alternativa 1',
-             afirmacao: 'Destruir qualquer forma de exploração humana, mas você será escravo até morrer.',
+             texto: 'Destruir qualquer forma de exploração humana.',
+             afirmacao: 'Você será escravo até morrer.',
 
         },
 
         {
-            texto: 'Alternativa 2',
-            afirmacao: 'Acabar com todas as drogas do mundo, mas os usuários morrem.',
+            texto: 'Acabar com todas as drogas do mundo',
+            afirmacao: 'Os usuários de drogas morreram.',
 
        }
     ]
@@ -27,14 +27,14 @@ const perguntas = [
         enunciado: 'No âmbito ambiental, você prefere:',
         alternativas: [
         {
-             texto: 'Alternativa 3',
-             afirmacao: 'Extinguir a Floresta Amazônica, mas os problemas ambientais desaparecem.',
+             texto: 'Extinguir a Floresta Amazônica',
+             afirmacao: 'Os problemas ambientais desapareceram.',
 
         },
 
         {
-            texto: 'Alternativa 4',
-            afirmacao: 'Acabar com a água do mundo, mas o ser humano não terá sede.',
+            texto: 'Acabar com a água do mundo',
+            afirmacao: 'Agora, o ser humano não terá sede.',
 
        }
     ]
@@ -44,14 +44,14 @@ const perguntas = [
         enunciado: 'No âmbito tecnológico, você prefere:',
         alternativas: [
         {
-             texto: 'Alternativa 5',
-             afirmacao: 'Ter internet para sempre, mas não poder se comunicar nas redes sociais ou qualquer meio de comunicação digital.',
+             texto: 'Ter internet para sempre',
+             afirmacao: 'Ninguém pode se comunicar nas redes sociais ou qualquer meio de comunicação digital.',
 
         },
 
         {
-            texto: 'Alternativa 6',
-            afirmacao: 'Criar a cura do Câncer, mas todos terão tumores com sequelas visuais.',
+            texto: 'Criar a cura do Câncer,',
+            afirmacao: 'Todos terão tumores com sequelas visuais.',
 
        }
     ]
