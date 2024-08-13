@@ -67,7 +67,6 @@ function mostraPerguntas () {
 
     caixaPerguntas.textContent = perguntaAtual.enunciado;
 
-
 }
 
 mostraPerguntas();
