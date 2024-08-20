@@ -17,7 +17,7 @@ const perguntas = [
 
         {
             texto: 'Acabar com todas as drogas do mundo.',
-            afirmacao: 'Os usuários de drogas morreram.',
+            afirmacao: 'Os usuários de drogas morreram por sua causa.',
 
        }
     ]
@@ -28,13 +28,13 @@ const perguntas = [
         alternativas: [
         {
              texto: 'Extinguir a Floresta Amazônica.',
-             afirmacao: 'Os problemas ambientais desapareceram.',
+             afirmacao: 'Os problemas ambientais desapareceram por sua decisão.',
 
         },
 
         {
             texto: 'Acabar com a água do mundo.',
-            afirmacao: 'Agora, o ser humano não terá sede.',
+            afirmacao: 'Parabéns, o ser humano não terá sede.',
 
        }
     ]
@@ -45,13 +45,13 @@ const perguntas = [
         alternativas: [
         {
              texto: 'Ter internet para sempre.',
-             afirmacao: 'Ninguém pode se comunicar nas redes sociais ou qualquer meio de comunicação digital.',
+             afirmacao: 'Parabéns, ninguém pode se comunicar nas redes sociais ou qualquer meio de comunicação digital.',
 
         },
 
         {
             texto: 'Criar a cura do Câncer.',
-            afirmacao: 'Todos terão tumores com sequelas visuais.',
+            afirmacao: 'Sua decisão causou que todos os habitantes do mundo terão tumores com sequelas visuais.',
 
        }
     ]
