@@ -66,6 +66,12 @@ let historiaFinal = "";
 
 
 function mostraPerguntas() {
+
+    if(atual >= perguntas.length){
+        mostraResultado();
+        return;
+    }
+
     perguntaAtual = perguntas[atual];
 
     caixaPerguntas.textContent = perguntaAtual.enunciado;
@@ -88,8 +94,15 @@ function mostraAlternativas() {
 
 function respostaSelecionada(alternativa) {
     const afirmacoes = alternativa.afirmacao;
+    historiaFinal += afirmacoes + " ";
     atual++;
     mostraPerguntas();
+}
+
+function mostraResultado() {
+    caixaPerguntas.textContent = "A CONSEQUÊNCIA... ";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = " ";
 }
 
 
