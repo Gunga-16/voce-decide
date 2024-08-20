@@ -33,9 +33,12 @@ h1{
 .caixa-perguntas{
     padding-bottom: 10px;
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
 }
 
+.caixa-resultado{
+    text-align: justify;
+}
 
 button{
     background-color: var(--cor-secundaria);
