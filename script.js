@@ -34,7 +34,7 @@ const perguntas = [
 
             {
                 texto: 'Acabar com a água do mundo.',
-                afirmacao: 'Parabéns, o ser humano não terá sede.',
+                afirmacao: 'O ser humano não terá sede.',
 
             }
         ]
@@ -45,13 +45,13 @@ const perguntas = [
         alternativas: [
             {
                 texto: 'Ter internet para sempre.',
-                afirmacao: 'Parabéns, ninguém pode se comunicar nas redes sociais ou qualquer meio de comunicação digital.',
+                afirmacao: 'Ninguém pode se comunicar nas redes sociais ou qualquer meio de comunicação digital.',
 
             },
 
             {
                 texto: 'Criar a cura do Câncer.',
-                afirmacao: 'Parabéns, todos os habitantes do mundo terão tumores com sequelas visuais.',
+                afirmacao: 'Todos os habitantes do mundo terão tumores com sequelas visuais.',
 
             }
         ]
