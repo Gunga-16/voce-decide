@@ -100,7 +100,7 @@ function respostaSelecionada(alternativa) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "A CONSEQUÊNCIA... ";
+    caixaPerguntas.textContent = "CONSEQUÊNCIA... ";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";
 }
