@@ -18,7 +18,7 @@ const perguntas = [
 
             {
                 texto: 'Acabar com todas as drogas do mundo.',
-                consequencia:  'Os usuários de drogas morreram por sua causa.',
+                consequencia:  'Os usuários de drogas morreram.',
                 afirmacao: 'Você acabou com as drogas, até aquelas que fazem bem, mas acabou matando todos os usuários do mundo.',
 
             }
@@ -30,7 +30,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: 'Extinguir a Floresta Amazônica.',
-                consequencia:  'Os problemas ambientais desapareceram por sua decisão.',
+                consequencia:  'Os problemas ambientais desapareceram.',
                 afirmacao: 'Além disso, você destruiu o maior patrimônio ambiental da América do Sul, a Floresta Amazônica, mas o aqueciemnto global e os outros problemas ambientais acabaram.',
 
             },
