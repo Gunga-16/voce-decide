@@ -31,14 +31,14 @@ const perguntas = [
             {
                 texto: 'Extinguir a Floresta Amazônica.',
                 consequencia:  'Os problemas ambientais desapareceram por sua decisão.',
-                afirmacao: 'Além disso, você destruiu com o maior patrimônio ambiental da América do Sul, a Floresta Amazônica, mas o aqueciemnto global e os outros problemas ambientais acabaram.',
+                afirmacao: 'Além disso, você destruiu o maior patrimônio ambiental da América do Sul, a Floresta Amazônica, mas o aqueciemnto global e os outros problemas ambientais acabaram.',
 
             },
 
             {
-                texto: 'Acabar com a água do mundo.',
-                consequencia:  'O ser humano não terá sede.',
-                afirmacao: 'Além disso, você acabou coma a água do mundo, mas agora, o ser humano não sentirá sede.',
+                texto: 'A água do mundo é infinita.',
+                consequencia:  'O ser humano terá sede para sempre.',
+                afirmacao: 'Além disso, você deixou o mundo com uma reserva infinita de água, mas agora, o ser humano não sentirá sede.',
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(alternativa) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "CONSEQUÊNCIA... ";
+    caixaPerguntas.textContent = "CONSEQUÊNCIAS... ";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";
 }
