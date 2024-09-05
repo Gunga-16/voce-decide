@@ -11,7 +11,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: 'Destruir qualquer forma de exploração humana.',
-                consequencia: 'Você não será feliz',
+                consequencia: 'Você não será feliz.',
                 afirmacao: 'Você destriu a exploração humana, mas nunca vai sentir a doce felicidade.',
 
             },
