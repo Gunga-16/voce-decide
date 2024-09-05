@@ -11,13 +11,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: 'Destruir qualquer forma de exploração humana.',
-                afirmacao: 'Você será escravo até morrer.',
+                consequencia: 'Você não será feliz',
+                afirmacao: 'Você destriu a exploração humana, mas nunca vai sentir a doce felicidade.',
 
             },
 
             {
                 texto: 'Acabar com todas as drogas do mundo.',
-                afirmacao: 'Os usuários de drogas morreram por sua causa.',
+                consequencia:  'Os usuários de drogas morreram por sua causa.',
+                afirmacao: 'Você acabou com as drogas, até aquelas que fazem bem, mas acabou matando todos os usuários do mundo.',
 
             }
         ]
@@ -28,14 +30,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: 'Extinguir a Floresta Amazônica.',
-                afirmacao: 'Os problemas ambientais desapareceram por sua decisão.',
+                consequencia:  'Os problemas ambientais desapareceram por sua decisão.',
+                afirmacao: 'Além disso, você destruiu com o maior patrimônio ambiental da América do Sul, a Floresta Amazônica, mas o aqueciemnto global e os outros problemas ambientais acabaram.',
 
             },
 
             {
                 texto: 'Acabar com a água do mundo.',
-                afirmacao: 'O ser humano não terá sede.',
-
+                consequencia:  'O ser humano não terá sede.',
+                afirmacao: 'Além disso, você acabou coma a água do mundo, mas agora, o ser humano não sentirá sede.',
             }
         ]
     },
@@ -45,13 +48,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: 'Ter internet para sempre.',
-                afirmacao: 'Ninguém pode se comunicar nas redes sociais ou qualquer meio de comunicação digital.',
+                consequencia:  'Ninguém pode se comunicar nas redes sociais ou qualquer meio de comunicação digital.',
+                afirmacao: 'Contudo, agora você tem internet para sempre, mesmo não podendo se comunicar nas redes digitais.',
 
             },
 
             {
                 texto: 'Criar a cura do Câncer.',
-                afirmacao: 'Todos os habitantes do mundo terão tumores com sequelas visuais.',
+                consequencia:  'Todos os habitantes do mundo terão tumores com sequelas visuais.',
+                afirmacao: 'Contudo, você criou a cura do câncer, mesmo assim, todos os humanos terão tumores visíveis.',
 
             }
         ]
@@ -93,8 +98,8 @@ function mostraAlternativas() {
 
 
 function respostaSelecionada(alternativa) {
-    const afirmacoes = alternativa.afirmacao;
-    historiaFinal += afirmacoes + " ";
+    const afirmacao = alternativa.afirmacao;
+    historiaFinal += afirmacao + " ";
     atual++;
     mostraPerguntas();
 }
